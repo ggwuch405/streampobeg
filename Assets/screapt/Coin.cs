@@ -2,11 +2,20 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    [SerializeField] private int value = 1;
+    // ÑÑÛËÊÀ ÍÀ WINMANAGER - ÏÅĞÅÒÀÙÈ Â ÈÍÑÏÅÊÒÎĞÅ!
+    [SerializeField] private WinManager _winManager;
 
-    public int Collect()
+    void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        return value;
+        if (other.CompareTag("Player"))
+        {
+            // Âûçûâàåì ìåòîä ó WinManager
+            if (_winManager != null)
+            {
+                _winManager.CollectCoin();
+            }
+
+            Destroy(gameObject);
+        }
     }
 }
