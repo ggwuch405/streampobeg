@@ -130,8 +130,8 @@ GameObject:
   - component: {fileID: 2647930}
   - component: {fileID: 2647933}
   - component: {fileID: 2647932}
-  - component: {fileID: 2647936}
   - component: {fileID: 2647935}
+  - component: {fileID: 2647936}
   m_Layer: 0
   m_Name: Sphere (5)
   m_TagString: coin
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2647929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -2358,8 +2358,8 @@ GameObject:
   - component: {fileID: 661168706}
   - component: {fileID: 661168709}
   - component: {fileID: 661168708}
-  - component: {fileID: 661168712}
   - component: {fileID: 661168711}
+  - component: {fileID: 661168712}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: coin
@@ -2465,7 +2465,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 661168705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -2480,8 +2480,8 @@ GameObject:
   - component: {fileID: 680236797}
   - component: {fileID: 680236800}
   - component: {fileID: 680236799}
-  - component: {fileID: 680236803}
   - component: {fileID: 680236802}
+  - component: {fileID: 680236803}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: coin
@@ -2587,7 +2587,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 680236796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -3131,81 +3131,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1874068307}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &816829851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 816829854}
-  - component: {fileID: 816829853}
-  - component: {fileID: 816829852}
-  m_Layer: 5
-  m_Name: WinMenu
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &816829852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816829851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &816829853
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816829851}
-  m_CullTransparentMesh: 1
---- !u!224 &816829854
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816829851}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1723398552}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -3374,8 +3299,8 @@ GameObject:
   - component: {fileID: 989176199}
   - component: {fileID: 989176202}
   - component: {fileID: 989176201}
-  - component: {fileID: 989176205}
   - component: {fileID: 989176204}
+  - component: {fileID: 989176205}
   m_Layer: 0
   m_Name: Sphere (10)
   m_TagString: coin
@@ -3481,7 +3406,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 989176198}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -3604,8 +3529,8 @@ GameObject:
   - component: {fileID: 1046399312}
   - component: {fileID: 1046399315}
   - component: {fileID: 1046399314}
-  - component: {fileID: 1046399319}
   - component: {fileID: 1046399318}
+  - component: {fileID: 1046399319}
   m_Layer: 0
   m_Name: Sphere (3)
   m_TagString: coin
@@ -3711,7 +3636,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1046399311}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -3726,8 +3651,8 @@ GameObject:
   - component: {fileID: 1102472003}
   - component: {fileID: 1102472006}
   - component: {fileID: 1102472005}
-  - component: {fileID: 1102472009}
   - component: {fileID: 1102472008}
+  - component: {fileID: 1102472009}
   m_Layer: 0
   m_Name: Sphere (7)
   m_TagString: coin
@@ -3833,7 +3758,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1102472002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -3848,8 +3773,8 @@ GameObject:
   - component: {fileID: 1109557402}
   - component: {fileID: 1109557405}
   - component: {fileID: 1109557404}
-  - component: {fileID: 1109557408}
   - component: {fileID: 1109557407}
+  - component: {fileID: 1109557408}
   m_Layer: 0
   m_Name: Sphere (9)
   m_TagString: coin
@@ -3955,7 +3880,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1109557401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -4414,8 +4339,8 @@ GameObject:
   - component: {fileID: 1275072511}
   - component: {fileID: 1275072514}
   - component: {fileID: 1275072513}
-  - component: {fileID: 1275072517}
   - component: {fileID: 1275072516}
+  - component: {fileID: 1275072517}
   m_Layer: 0
   m_Name: Sphere (4)
   m_TagString: coin
@@ -4521,7 +4446,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1275072510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -5281,6 +5206,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1874068307}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1629536044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629536047}
+  - component: {fileID: 1629536046}
+  - component: {fileID: 1629536045}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1629536045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629536044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1629536046
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629536044}
+  m_CullTransparentMesh: 1
+--- !u!224 &1629536047
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629536044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1723398552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1723398548
 GameObject:
   m_ObjectHideFlags: 0
@@ -5377,7 +5377,7 @@ RectTransform:
   m_Children:
   - {fileID: 1149357045}
   - {fileID: 352852186}
-  - {fileID: 816829854}
+  - {fileID: 1629536047}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5828,8 +5828,8 @@ GameObject:
   - component: {fileID: 1795488783}
   - component: {fileID: 1795488786}
   - component: {fileID: 1795488785}
-  - component: {fileID: 1795488789}
   - component: {fileID: 1795488788}
+  - component: {fileID: 1795488789}
   m_Layer: 0
   m_Name: Sphere (8)
   m_TagString: coin
@@ -5935,7 +5935,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1795488782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -5950,8 +5950,8 @@ GameObject:
   - component: {fileID: 1809530684}
   - component: {fileID: 1809530687}
   - component: {fileID: 1809530686}
-  - component: {fileID: 1809530690}
   - component: {fileID: 1809530689}
+  - component: {fileID: 1809530690}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: coin
@@ -6057,7 +6057,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1809530683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35985c40c89648e4d8b29633a432f54c, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e5e30add0e9804a8b1a2738ccf8589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
@@ -6347,53 +6347,6 @@ Transform:
   - {fileID: 255282426}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1906459906
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1906459908}
-  - component: {fileID: 1906459909}
-  m_Layer: 0
-  m_Name: WinManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1906459908
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906459906}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 632.7595, y: 346.1862, z: 49298.383}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1906459909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906459906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5873b1586eceb5740ba21fd6185253ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winMenu: {fileID: 816829851}
-  coinTag: coin
-  playerController: {fileID: 41677491}
 --- !u!1 &1983348102
 GameObject:
   m_ObjectHideFlags: 0
@@ -6610,6 +6563,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1874068307}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2063329245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2063329247}
+  - component: {fileID: 2063329248}
+  m_Layer: 0
+  m_Name: WinManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2063329247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063329245}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 747.40234, y: 370.66077, z: 73128.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2063329248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063329245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2377c91a4cb2d774eb00fab140a636ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winUI: {fileID: 1629536044}
+  coinTag: coin
 --- !u!1 &2080703205
 GameObject:
   m_ObjectHideFlags: 0
@@ -6729,4 +6728,4 @@ SceneRoots:
   - {fileID: 1129130679}
   - {fileID: 475446060}
   - {fileID: 1723398552}
-  - {fileID: 1906459908}
+  - {fileID: 2063329247}
