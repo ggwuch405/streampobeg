@@ -3,39 +3,29 @@ using UnityEngine.UI;
 
 public class WinCondition : MonoBehaviour
 {
-    [Header("Экран победы")]
     [SerializeField] private GameObject winUI;
-
-    [Header("Настройки")]
-    [SerializeField] private string coinTag = "coin";
+    [SerializeField] private string coinTag = "Coin";
 
     void Start()
     {
-        // Выключаем экран победы при старте
+        // ВАЖНО: Всегда сбрасываем время при старте сцены
+        Time.timeScale = 1f;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
         if (winUI != null)
         {
             winUI.SetActive(false);
         }
-
-        Debug.Log("Система победы запущена");
     }
 
     void Update()
     {
-        // Постоянно проверяем, остались ли монетки на сцене
-        CheckForWin();
-    }
-
-    void CheckForWin()
-    {
-        // Если экран уже показан - выходим
         if (winUI != null && winUI.activeSelf)
             return;
 
-        // Ищем все монетки с тегом "Coin"
         GameObject[] coins = GameObject.FindGameObjectsWithTag(coinTag);
 
-        // Если монеток не осталось
         if (coins.Length == 0)
         {
             ShowWinScreen();
@@ -47,30 +37,17 @@ public class WinCondition : MonoBehaviour
         if (winUI != null)
         {
             winUI.SetActive(true);
-
-            // Останавливаем время
             Time.timeScale = 0f;
-
-            // Включаем курсор
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-
-            Debug.Log("ПОБЕДА! Все монетки собраны!");
         }
     }
 
-    // Методы для кнопок UI
-    public void HideWinScreen()
-    {
-        if (winUI != null)
-        {
-            winUI.SetActive(false);
-            Time.timeScale = 1f;
-        }
-    }
+    // Измененные методы для кнопок:
 
     public void RestartLevel()
     {
+        // ВАЖНО: Восстанавливаем время перед загрузкой сцены
         Time.timeScale = 1f;
         UnityEngine.SceneManagement.SceneManager.LoadScene(
             UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
@@ -80,5 +57,16 @@ public class WinCondition : MonoBehaviour
     {
         Time.timeScale = 1f;
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+    }
+
+    public void ContinueGame()
+    {
+        if (winUI != null)
+        {
+            winUI.SetActive(false);
+            Time.timeScale = 1f;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 }
