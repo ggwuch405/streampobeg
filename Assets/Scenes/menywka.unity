@@ -965,7 +965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 675624658}
-  _sceneName: SampleScene
+  _sceneName: feelz86
 --- !u!1 &698531141
 GameObject:
   m_ObjectHideFlags: 0
