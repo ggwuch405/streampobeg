@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class WinCondition : MonoBehaviour
 {
     [SerializeField] private GameObject winUI;
     [SerializeField] private string coinTag = "Coin";
+    [SerializeField] private int currentLevelNumber = 1; // Добавил номер уровня
 
     void Start()
     {
@@ -16,6 +18,12 @@ public class WinCondition : MonoBehaviour
         if (winUI != null)
         {
             winUI.SetActive(false);
+        }
+
+        // Проверка наличия LevelProgress
+        if (FindObjectOfType<LevelProgress>() == null)
+        {
+            Debug.LogWarning("LevelProgress не найден. Прогресс не будет сохраняться!");
         }
     }
 
@@ -40,6 +48,22 @@ public class WinCondition : MonoBehaviour
             Time.timeScale = 0f;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+
+            // СОХРАНЯЕМ ПРОГРЕСС СРАЗУ ПРИ ПОБЕДЕ
+            SaveLevelProgress();
+        }
+    }
+
+    void SaveLevelProgress()
+    {
+        if (LevelProgress.Instance != null)
+        {
+            LevelProgress.Instance.LevelCompleted(currentLevelNumber);
+            Debug.Log($"Уровень {currentLevelNumber} пройден! Открыт уровень {currentLevelNumber + 1}");
+        }
+        else
+        {
+            Debug.LogError("LevelProgress.Instance равен null! Прогресс не сохранён.");
         }
     }
 
@@ -47,16 +71,32 @@ public class WinCondition : MonoBehaviour
 
     public void RestartLevel()
     {
-        // ВАЖНО: Восстанавливаем время перед загрузкой сцены
         Time.timeScale = 1f;
-        UnityEngine.SceneManagement.SceneManager.LoadScene(
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void LoadScene(string sceneName)
     {
         Time.timeScale = 1f;
-        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void LoadNextLevel()
+    {
+        Time.timeScale = 1f;
+
+        // Автоматически определяем следующий уровень
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            // Если уровни кончились - идём в меню
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 
     public void ContinueGame()
