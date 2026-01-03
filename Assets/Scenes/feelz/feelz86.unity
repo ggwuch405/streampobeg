@@ -3934,7 +3934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 988682818}
-  _sceneName: leoxa
+  _sceneName: feelz862
   levelNumber: 1
   lockIcon: {fileID: 0}
 --- !u!114 &988682820
@@ -5047,7 +5047,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 212f544e8826f0e43bd0dc9afd75163c, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 548ebd81c84e72545ad7b604d999dcd8, type: 2}
   m_BuildHeightMesh: 0
 --- !u!114 &1168626205
 MonoBehaviour:
@@ -5061,12 +5061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fbe443705c0be46ae8e0c4b44dc09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Action: 0
-  ActionOn: 0
-  Tag: 
-  LightReference: {fileID: 0}
-  SetValue: 0
-  RandomAmount: 0
 --- !u!1 &1197795926
 GameObject:
   m_ObjectHideFlags: 0
