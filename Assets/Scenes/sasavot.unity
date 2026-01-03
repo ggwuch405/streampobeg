@@ -4724,7 +4724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winUI: {fileID: 312715673}
   coinTag: coin
-  currentLevelNumber: 1
+  currentLevelNumber: 3
 --- !u!4 &1667807822
 Transform:
   m_ObjectHideFlags: 0
