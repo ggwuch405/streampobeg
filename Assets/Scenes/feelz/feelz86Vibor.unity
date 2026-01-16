@@ -530,10 +530,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1485331694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1169, y: 546}
+  m_SizeDelta: {x: 1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1043438982
 MonoBehaviour:
@@ -606,10 +606,10 @@ RectTransform:
   - {fileID: 1928280157}
   m_Father: {fileID: 1485331694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 334, y: 0}
-  m_SizeDelta: {x: 170, y: 170}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -250.5, y: 0}
+  m_SizeDelta: {x: 171, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1255525377
 MonoBehaviour:
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 1255525379}
-  _sceneName: sasavot
+  _sceneName: feelz863
   levelNumber: 3
   lockIcon: {fileID: 1928280156}
 --- !u!114 &1255525378
@@ -985,10 +985,10 @@ RectTransform:
   - {fileID: 567124979}
   m_Father: {fileID: 1485331694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 553.8, y: 237.8}
-  m_SizeDelta: {x: 33.9659, y: 43.3316}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -30.200012, y: -35.199997}
+  m_SizeDelta: {x: 33.96588, y: 43.331604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1896800764
 MonoBehaviour:
@@ -1375,10 +1375,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1485331694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -353, y: 0}
-  m_SizeDelta: {x: 170, y: 170}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 231.53137, y: 0}
+  m_SizeDelta: {x: 171, y: 170}
   m_Pivot: {x: 0.5313591, y: 0.5}
 --- !u!114 &2126229012
 MonoBehaviour:

@@ -9,20 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/menywka.unity
     guid: 7572492aff0242e41a4fe42c2ee27fe7
   - enabled: 1
+    path: Assets/Scenes/feelz/feelz86Vibor.unity
+    guid: e0b488c3ef0fbdc43b0800a2df1fb110
+  - enabled: 1
     path: Assets/Scenes/feelz/feelz86.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/feelz/feelz862.unity
+    guid: 567314bccbbebe641a53c1a36473bcd5
+  - enabled: 1
+    path: Assets/Scenes/feelz/feelz863.unity
+    guid: a438310683f5d404280c2c47fbeaa963
   - enabled: 1
     path: Assets/Scenes/leoxa/leoxa.unity
     guid: 53cfddaddc2194048a6ce5c7e1b4ee0f
   - enabled: 1
     path: Assets/Scenes/sasavot/sasavot.unity
     guid: ba8e009cebd194e41a22ab948c190801
-  - enabled: 1
-    path: Assets/Scenes/feelz/feelz86Vibor.unity
-    guid: e0b488c3ef0fbdc43b0800a2df1fb110
-  - enabled: 1
-    path: Assets/Scenes/feelz/feelz862.unity
-    guid: 567314bccbbebe641a53c1a36473bcd5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
