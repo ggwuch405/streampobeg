@@ -21,8 +21,17 @@ EditorBuildSettings:
     path: Assets/Scenes/feelz/feelz863.unity
     guid: a438310683f5d404280c2c47fbeaa963
   - enabled: 1
+    path: Assets/Scenes/leoxa/leoxavibor.unity
+    guid: 8430754591794e64a8dd4b0e611d198d
+  - enabled: 1
     path: Assets/Scenes/leoxa/leoxa.unity
     guid: 53cfddaddc2194048a6ce5c7e1b4ee0f
+  - enabled: 1
+    path: Assets/Scenes/leoxa/leoxa2.unity
+    guid: a1fac8bb99e400c4db9226d4a461d8f5
+  - enabled: 1
+    path: Assets/Scenes/leoxa/leoxa3.unity
+    guid: 8d9bfedbd1c6c824496b49072d81dc28
   - enabled: 1
     path: Assets/Scenes/sasavot/sasavot.unity
     guid: ba8e009cebd194e41a22ab948c190801
