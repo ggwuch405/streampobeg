@@ -6,6 +6,7 @@ TagManager:
   tags:
   - coin
   - Obstacles
+  - light bulb
   layers:
   - Default
   - TransparentFX
