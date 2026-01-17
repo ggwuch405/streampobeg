@@ -176,7 +176,7 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("Переход в меню...");
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("menywka");
     }
 
     void QuitGame()

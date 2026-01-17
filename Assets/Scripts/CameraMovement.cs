@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraMovement : MonoBehaviour
+public class CameraMovementsasu : MonoBehaviour
 {
     [SerializeField] private float mouseSensitivity = 100f; // Чувствительность мыши, настраивается в инспекторе
     [SerializeField] private Transform playerBody;         // Ссылка на Transform игрока
