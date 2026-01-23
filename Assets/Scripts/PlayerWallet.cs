@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro; // Обязательно добавьте эту строку в начало скрипта
 
-public class PlayerWallet : MonoBehaviour
+public class PlayerWalletsasusam : MonoBehaviour
 {
     [SerializeField] private int totalCoins = 0;
     // Перетащите ваш UI Text (TMP) сюда в Инспекторе

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class Coinsas : MonoBehaviour
 {
     internal readonly object maxCoins;
     internal readonly object coinAmount;
