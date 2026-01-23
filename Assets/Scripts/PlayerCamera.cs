@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerCamera : MonoBehaviour
+public class PlayerCamerasas : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Transform playerCamera;
